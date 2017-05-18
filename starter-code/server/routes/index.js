@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 const express       = require('express');
 const journalRoutes = require('./api/journal-entries');
 const router        = express.Router();
