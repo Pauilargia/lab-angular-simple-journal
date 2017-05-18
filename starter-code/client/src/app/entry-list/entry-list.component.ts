@@ -1,5 +1,5 @@
-  import { Component, OnInit } from '@angular/core';
-  import { JournalService } from '../service/journal.service'
+import { Component, OnInit } from '@angular/core';
+import { JournalService } from '../service/journal.service'
 
 @Component({
   selector: 'app-entry-list',

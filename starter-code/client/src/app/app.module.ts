@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { RouterModule } from "@angular/router";
 import { routes } from './app.routing';
 import { EntryListComponent } from './entry-list/entry-list.component';
-import { JournalService } from './service/journal.service'
+import { JournalService } from './service/journal.service';
+import { SingleEntryComponent } from './single-entry/single-entry.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    EntryListComponent
+    EntryListComponent,
+    SingleEntryComponent
   ],
   imports: [
     BrowserModule,
