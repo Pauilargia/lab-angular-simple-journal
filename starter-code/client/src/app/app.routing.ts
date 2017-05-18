@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 
-import { JournalEntriesComponent } from './journal-entries/journal-entries.component';
+import { EntryListComponent } from './entry-list/entry-list.component';
 
 
 export const routes: Routes = [
-    { path: 'api/journal-entries', component: JournalEntriesComponent },
+    { path: '', component: EntryListComponent },
     { path: '**', redirectTo: '' }
 ];
